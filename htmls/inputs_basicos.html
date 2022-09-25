@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Basicos</title>
+</head>
+<body>
+    <section>
+        <h1>Inputs Basicos</h1>
+    </section>
+
+    <hr>
+
+    <section>
+        <form action="https://www.globo.com" method="post"> <!-- post esconde as informações  do usuario na URL, ja o GET aparece todas as informações na URL-->
+
+        <label >Nome</label><br>
+        <input placeholder="Insira seu nome" type="text" name="Nome" class="" id=""><br>
+        
+        <label>Senha</label><br>
+        <input placeholder="Insira sua senha" type="password" name="Senha"><br> <!-- placeholder = dica  do que escrever  no campo-->
+
+        <label>Times</label><br>
+        <input type="text" placeholder="Insira seu time" name="Time" list="lista_times">
+        <datalist id="lista_times"> <!-- auto completar-->
+            <option value="Santos"></option>
+            <option value="São Paulo"></option>
+            <option value="Palmeiras"></option>
+            <option value="Corinthians"></option>
+        </datalist>
+        <br><br>
+
+        <label>Opções</label><br>
+        <input type="radio" name="Opção">A<br>
+        <input type="radio" name="Opção">B<br>
+        <input type="radio" name="Opção">C<br>
+
+        <label>Multiplica Escolha</label><br>
+        <input type="checkbox" name="Multiplico" id="">1<br>
+        <input type="checkbox" name="Multiplico" id="">2<br>
+        <input type="checkbox" name="Multiplico" id="">3<br>
+
+        <label>Texto</label><br>
+        <textarea name="texto" id="" cols="30" rows="10"></textarea><br>
+
+        <label>Arquivo</label><br>
+        <input type="file" name="Arquivo" id="">
+        <br><br>
+
+        <label>Sexo</label><br>
+        <select name="sexo" id="">
+            <option selected value="">Selecione</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Femenino</option>
+        </select>
+        <br><br>
+
+        <label>Marcas de Carros</label><br>
+        <select name="carro" id="">
+            <optgroup  label="Alemaes">
+                <option selected value="">Selecione</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+            <optgroup  label="Suecos">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <input type="button" value="Botão sem ação">
+        <input type="submit" value="Enviar">
+        <br><br>
+          
+        </form>
+    </section>
+</body>
+</html>
