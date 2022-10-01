@@ -20,4 +20,19 @@ label{
 }
 #campo_email{
     height: 45px;
+    background-color: #d40233;
+}
+#box_exemplo{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(2, 212, 19, 0.301);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+form {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    background-color: white;
 }
