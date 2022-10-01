@@ -1,4 +1,23 @@
-h1 {
-    color: red;
+body{
+    background-color: salmon;
+}
+h1{
+    color: red; 
     font-size: 45px;
+}
+input{
+    display: block;
+    margin-bottom: 20px;
+    background-color: seagreen;
+}
+label{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tracejado{
+    border: dashed 2px #000;
+    background-color: steelblue;
+}
+#campo_email{
+    height: 45px;
 }
